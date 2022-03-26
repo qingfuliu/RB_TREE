@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11  -shared -Wl,-soname,libR_BTree.so -o ../lib/libR_BTree.so CMakeFiles/R_BTree.dir/R_BTree.cpp.o 

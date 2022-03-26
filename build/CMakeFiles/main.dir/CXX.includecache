@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lqf/cpp/R-B Tree/R_BTree.h
+string
+-
+iostream
+-
+assert.h
+-
+sstream
+-
+iostream
+-
+exception
+-
+
+/home/lqf/cpp/R-B Tree/main.cpp
+R_BTree.h
+/home/lqf/cpp/R-B Tree/R_BTree.h
+iostream
+-
+
